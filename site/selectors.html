@@ -16,6 +16,16 @@ p.highlight{
 	color:red;
 	background-color: green;
 }
+section > article{
+	color:green;
+	font-size:24px;
+}
+section > h2{
+	color:green;
+}
+section article{
+	color:red;
+}
 </style>
 </head>
 <body>
@@ -24,6 +34,19 @@ p.highlight{
 <p class="highlight">this is p with class =highlight</p>
 <div class="mainpoint highlight">this is the main point of the entire article.</div>
 
+<h1>child selector</h1>
+<section>
+	<h2>subheading 1</h2>
+	<div>
+		<article>Article which is inside div,which is insdie section</article>
+	</div>
+</section>
+<section>
+	<article>
+	Article as a direct child of the section element.</article>
+
+</section>
+<h2>subheading 2</h2>
 
 </body>
 </html>
